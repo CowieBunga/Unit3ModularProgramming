@@ -145,8 +145,8 @@ class Sprite:
 '''
 this class inherits the Sprite class, so it receives all of the methods above. the only thing unique about all
 the rest of the classes are the type moves (flamethrower, leaf storm, and hydro pump). note that I won't be
-giving block or line comments for the rest of the classes because they are virtually the same, just with different
-moves.
+giving as many block or line comments for the rest of the classes because they are virtually the same, just with 
+different moves.
 '''
 class Charizard(Sprite):
     def __init__(self, health=100, defense=5, speed=20, isEnemy=True):  # efficient programming to gives these
@@ -164,7 +164,7 @@ class Charizard(Sprite):
             self.picture = pygame.transform.scale(self.picture, (300, 300))
 
     '''
-    this method was used because so that descriptions of the pokemon can be printed out
+    this method was used so that descriptions of the pokemon can be printed out
     '''
     def __str__(self):
         return "Charizard\n\nCharizard is the second fastest and the second bulkiest pokemon" \
