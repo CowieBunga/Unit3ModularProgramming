@@ -6,7 +6,6 @@ import pygame
 ####################---Classes---######################
 #######################################################
 '''
-
 '''
 this is the main class that all the other classes inherit. It includes all the moves that each pokemon has except for 
 the type moves.
